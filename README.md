@@ -1,6 +1,6 @@
 # Alexis Carbajal — Portfolio
 
-Personal portfolio site. Full-stack developer (PHP/Laravel/JS) — real deployments, no dummy apps.
+Personal portfolio site. Full-stack developer (PHP/Laravel/JS) 
 
 **Live:** https://alexis-ce.github.io
 
