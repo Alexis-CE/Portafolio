@@ -488,6 +488,14 @@ body {
 .pr-purple .chip { border-color: rgba(155,95,255,0.2); color: rgba(155,95,255,0.8); background: rgba(155,95,255,0.05); }
 .pr-orange .chip { border-color: rgba(255,119,51,0.2); color: rgba(255,119,51,0.8); background: rgba(255,119,51,0.05); }
 
+.pr-pink::before { background: linear-gradient(to bottom, var(--pink), var(--purple)); }
+.pr-pink .pr-num { color: var(--pink); }
+.pr-pink .chip { border-color: rgba(255,61,138,0.2); color: rgba(255,61,138,0.8); background: rgba(255,61,138,0.05); }
+
+.pr-yellow::before { background: linear-gradient(to bottom, var(--yellow), var(--orange)); }
+.pr-yellow .pr-num { color: var(--yellow); }
+.pr-yellow .chip { border-color: rgba(255,209,102,0.2); color: rgba(255,209,102,0.8); background: rgba(255,209,102,0.05); }
+
 .pr-arrow { color: var(--text-faint); font-size: 15px; padding-top: 2px; transition: color 0.2s; }
 
 /* ===========================
