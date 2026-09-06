@@ -16,13 +16,17 @@ function generateImages(path, prefix, total) {
 }
 
 const certifications = {
+    ai: {
+        title: "AI Certifications",
+        items: generateImages('./assets/Diplomas/ai', 'ai', 5)
+    },
     english: {
         title: "English Certifications",    
-        items: generateImages('./assets/Diplomas/english', 'english', 16)
+        items: generateImages('./assets/Diplomas/english', 'english', 17)
     },
     frontend: {
         title: "Frontend Certifications",
-        items: generateImages('./assets/Diplomas/frontend', 'frontend', 5)
+        items: generateImages('./assets/Diplomas/frontend', 'frontend', 6)
     },
     javascript: {
         title: "JavaScript Certifications",
@@ -156,6 +160,7 @@ document.getElementById('modal').addEventListener('touchend', e => {
     }
 });
 
+createCertificationSection('ai-certifications', certifications.ai);
 createCertificationSection('english-certifications', certifications.english);
 createCertificationSection('frontend-certifications', certifications.frontend);
 createCertificationSection('javascript-certifications', certifications.javascript);
